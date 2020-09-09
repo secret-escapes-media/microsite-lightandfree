@@ -1,0 +1,10 @@
+{% assign flavour = page.flavours | where: 'id', include.id | first %}
+<div class="depth--md rounded--md width width--md flavour flavour--{{include.id}}">
+  <div class="flavour__image"></div>
+  <a class="js-open-modal flavour__image-link" href="{{flavour.link}}" data-open-modal="shops"></a>
+  <div class="flavour__text">
+    <div class="flavour__title"><a class="js-open-modal" href="{{flavour.link}}" data-open-modal="shops">{{flavour.title}}</a></div>
+    <p class="flavour__sub">0% Fat 0% Added sugar**</p>
+    <a class="js-open-modal flavour__link" href="{{flavour.link}}" data-open-modal="shops">View product</a>
+  </div>
+</div>

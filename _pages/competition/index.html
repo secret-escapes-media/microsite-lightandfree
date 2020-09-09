@@ -1,0 +1,29 @@
+---
+layout: page
+id: country
+title: Select your country
+
+countries:
+  - title: Great Britain
+    id: gb
+  - title: Northern Ireland
+    id: ni
+  - title: Republic of Ireland
+    id: ie
+---
+
+<div class="container">
+  <div class="row">
+    {% for country in page.countries %}
+    <div class="col col--4">
+      <div class="img img--1-1 bg--black ">
+        <a href="{{site.baseurl}}/competition/{{country.id}}" class="img__link"></a>
+        <div class="img__content">
+          <div class="h h--sm">{{country.title}}</div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+<div class="space--xxxl"></div>

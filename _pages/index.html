@@ -1,0 +1,152 @@
+---
+layout: page
+id: overview
+nav: true
+nav-order: 1
+title: Taste & Escape
+
+banner:
+  content: >
+    <div class="container text--center">
+      <h1 class="h--banner">Taste & Escape</h1>
+      <div class="space--lg"></div>
+      <div class="container container--xxl boxpad--xl depth--md rounded--md text--center bg--white theme--light">
+        <h2 class="h h--md">Shop Light & Free and win one of eight epic adventures around the UK</h2>
+        <p>Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+      </div>
+    </div>
+
+products:
+  title: Discover the world of Light & Free
+  content: Delicious Greek-style yoghurt with eight scrumptious flavours to choose from. Find the flavour for you, each inspired by around-the-world adventures.
+
+flavours:
+
+  - id: blueberry
+    title: Blueberry Burst
+    description: Play to win hearts with this mouth watering taste sensation. Enjoy the fab fruity zing of Light & Free Blueberry!
+    link: http://www.lightandfree.com/product/four-pack-blueberry
+
+  - id: vanilla
+    title: Vanilla
+    description: Smooth as silk, a timeless classic! Enjoy the laid-back taste of Light & Free Vanilla!
+    link: http://www.lightandfree.com/product/four-pack-vanilla
+
+  - id: peach
+    title: Peach Passion Fruit
+    description: Wakey wakey, let your senses shine with this taste of the tropics. Enjoy the exciting fruit combination of Light & Free Peach Passion Fruit!
+    link: http://www.lightandfree.com/product/four-pack-peach-passion-fruit
+
+  - id: lemon
+    title: Lemon
+    description: Its zesty style will awaken your senses. Enjoy the refreshing taste of Light & Free Lemon!
+    link: http://www.lightandfree.com/product/four-pack-lemon
+
+  - id: cherry
+    title: Cherry Charmer
+    description: Take a ride on the luscious side. Enjoy the sunkissed taste of Light & Free Cherry!
+    link: http://www.lightandfree.com/product/four-pack-cherry
+
+  - id: strawberry
+    title: Strawberry
+    description: Great taste, great style, you’re simply made for each other. Enjoy the irresistible taste of Light & Free Strawberry!
+    link: http://www.lightandfree.com/product/four-pack-strawberry
+
+  - id: coconut
+    title: Coconut
+    description: Its coconut bits will tingle your taste buds. Enjoy the fresh taste of Light & Free Coconut!
+    link: http://www.lightandfree.com/product/four-pack-coconut
+
+  - id: raspberry
+    title: Raspberry Razzle
+    description: Enjoy the delicious taste of Light* & Free Raspberry!
+    link: http://www.lightandfree.com/product/four-pack-raspberry
+
+competition:
+  title: Win one of eight epic adventures around the UK
+  content: Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna.
+
+---
+
+
+
+<div class="container vpad--xxl">
+
+  <div class="width width--xl text--center">
+    <h2 class="h h--lg">{{page.products.title}}</h2>
+    <p>{{page.products.content}}</p>
+  </div>
+  <div class="space--lg"></div>
+
+  <div class="row row--6-6 row--xxl-4-4-4">
+    <div class="col">
+      <div class="col__content-spacing">
+        {% include content/flavour.html id="strawberry" %}
+        {% include content/flavour.html id="vanilla" %}
+        {% include content/flavour-image.html id="peach" ratio="1-1" %}
+        {% include content/flavour.html id="raspberry" %}
+        {% include content/flavour-image.html id="cherry" ratio="2-3" %}
+      </div>
+    </div>
+    <div class="col">
+      <div class="col__content-spacing">
+        {% include content/flavour-image.html id="blueberry" ratio="1-1" %}
+        {% include content/flavour-image.html id="coconut" ratio="2-3" %}
+        {% include content/flavour.html id="blueberry" %}
+        {% include content/flavour-image.html id="strawberry" ratio="1-1" %}
+        {% include content/flavour.html id="lemon" %}
+      </div>
+    </div>
+    <div class="col">
+      <div class="col__content-spacing">
+        {% include content/flavour.html id="peach" %}
+        {% include content/flavour.html id="cherry" %}
+        {% include content/flavour-image.html id="lemon" ratio="2-3" %}
+        {% include content/flavour.html id="coconut" %}
+        {% include content/flavour-image.html id="vanilla" ratio="1-1" %}
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="space--lg"></div>
+<div class="container container--xxxl">
+  <div class="boxpad--xl rounded--md bg--secondary-lighter theme--light">
+
+    <div class="text--center">
+      <h2 class="h h--lg">Shop Light & Free and win!</h2>
+      <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra augue.</p>
+    </div>
+
+    <div class="space--md"></div>
+
+    <div class="row">
+      <div class="col col--6">
+        <p><span class="h h--xs">8</span> secret getaways to be won</p>
+        <p><span class="h h--xs">20</span> £250 Secret Escapes vouchers still to win</p>
+      </div>
+      <div class="col col--6">
+        <p class="h h--xs">Shop Light & Free</p>
+        <p>Light & Free can be purchased from all major supermarkets.</p>
+        <p>[Supermarket logos]</p>
+      </div>
+    </div>
+
+    <div class="space--md"></div>
+
+    <div class="boxpad--xs bg--white text--center">
+      <p>Already have your yoghurt? <a href="{{site.baseurl}}/competition" class="text--link">Enter the competition now</a></p>
+    </div>
+  </div>
+
+</div>
+<div class="space--xxl"></div>
+
+<div class="bg--grey-lightest vpad--xxxl">
+  <div class="text--center">
+    <h2 class="h h--lg">The Light & Free Collection</h2>
+    <div class="space--xl"></div>
+  </div>
+  {% include offer/all-offers-dynamic.html sheet="by formula" limit="6" %}
+</div>
