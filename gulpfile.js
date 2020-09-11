@@ -68,6 +68,12 @@ function buildImages() {
   .pipe(gulp.dest('./_site/_assets/img/'));
 }
 
+// build for font files
+function buildFonts() {
+  return gulp.src('./_assets/font/**/*.*')
+  .pipe(gulp.dest('./_site/_assets/font/'));
+}
+
 // build for main js file
 function buildJsMain(cb) {
   return gulp.src([
@@ -179,7 +185,9 @@ function compressJs() {
 // compress images files for live
 function compressImages() {
   return gulp.src('./_site/_assets/img/**/*')
-  .pipe(image())
+  .pipe(image({
+    svgo: ['--disable', 'removeViewBox']
+  }))
   .pipe(gulp.dest('./_site/_assets/img'));
 }
 
@@ -207,6 +215,7 @@ var build = gulp.series(
     buildJekyll,
     buildSass,
     buildImages,
+    buildFonts,
     buildJsMain,
     buildJs
   )
