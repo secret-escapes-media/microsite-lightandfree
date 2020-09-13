@@ -147,3 +147,50 @@
     background: linear-gradient(90deg, rgba(249,217,241,1) 0%, rgba(249,224,245,1) 100%);
   }
 }
+
+.btn {
+  &--lf {
+    background-image: none;
+    background-color: $lf-blueberry;
+    @include transition;
+    &:hover,
+    &:focus {
+      background-color: darken($lf-blueberry, 12);
+    }
+  }
+}
+
+.shops {
+  padding-top: $s0;
+  .shop {
+    $img-padding: $s-2 $s-1;
+    display: inline-block;
+    max-width: 140px;
+    vertical-align: middle;
+    padding: $img-padding;
+    @include transition;
+    position: relative;
+    &--sainsburys { max-width: 180px; }
+    &--tesco      { max-width: 140px; }
+    &--asda       { max-width: 130px; }
+    &--morrisons  { max-width: 130px; }
+    &__color {
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      position: absolute;
+      z-index: $z-content;
+      padding: $img-padding;
+      opacity: 0;
+      background-color: $white;
+      @include transition;
+    }
+  }
+}
+
+.shop:hover,
+.shop:active,
+.shop:focus{
+  .shop__color { opacity: 1; }
+}
