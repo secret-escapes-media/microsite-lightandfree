@@ -41,7 +41,7 @@ hr, .hr {
   &--light {
     // light background, dark text
     color: $grey-dark;
-    & .h, &.h { color: $grey-darker; }
+    & .h, &.h { color: $grey-dark; }
   }
   &--dark {
     // dark background, light text

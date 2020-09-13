@@ -42,14 +42,16 @@
     text-align: center;
   }
   &__title {
-    font-family: $serif;
+    font-family: $display;
     line-height: .9;
     font-size: $s3;
     font-weight: 600;
+    font-style: italic;
   }
   &__sub {
     line-height: .9;
     font-size: $s0;
+    font-family: $display;
   }
   &__link {
     display: inline-block;

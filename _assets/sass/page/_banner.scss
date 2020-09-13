@@ -12,9 +12,8 @@
   color: $white;
   background-color: $grey;
   @include bp($lg){
-    height: 85%;
     min-height: 650px;
-    max-height: none;
+    max-height: 1080px;
   }
   &__wrap {
     position: relative;

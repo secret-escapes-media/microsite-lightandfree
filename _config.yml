@@ -1,14 +1,12 @@
 # Site settings
-title: Light & Free
+title: Light & Free Escapes
 locale: uk
 partner:
-  name: Danone
-  link: "#client-name"
+  name: Light & Free
+  link: http://www.lightandfree.com/
 
 description: >
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-
+  Take the leap into the unknown. We’ve partnered with Light & Free to bring you eight deliciously secret getaways. So if you’re ready to throw yourself into an escape filled with unforgettable adventure, don’t miss your chance to win the experience of a lifetime.
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
