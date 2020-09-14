@@ -97,9 +97,9 @@ function buildJsMain(cb) {
     './_assets/js/_components/modal.js',
     './_assets/js/_components/modal-nav.js',
     // './_assets/js/_components/sticky-nav.js',
-    './_assets/js/_components/form/functions.js',
-    './_assets/js/_components/form/validation.js',
-    './_assets/js/_components/competition.js',
+    // './_assets/js/_components/form/functions.js',
+    // './_assets/js/_components/form/validation.js',
+    // './_assets/js/_components/competition.js',
     './_assets/js/_components/offer-sheet.js',
     './_assets/js/_components/offer-countdown.js',
 
