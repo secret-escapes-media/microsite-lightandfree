@@ -12,6 +12,8 @@
   color: $white;
   background-color: $grey;
   @include bp($lg){
+    height: 90%;
+    height: calc(100% - #{$core-nav-height});
     min-height: 650px;
     max-height: 1080px;
   }
@@ -39,7 +41,7 @@
       // optional colour overlay on bg image
       content: '';
       position: absolute;
-      height: 50%;
+      height: 33.33%;
       left: 0;
       right: 0;
       bottom: 0;
