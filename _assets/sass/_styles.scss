@@ -158,6 +158,21 @@
       background-color: darken($lf-blueberry, 12);
     }
   }
+  &--outline-white {
+    @include transition;
+    color: $white;
+    &:before { border-color: $white; }
+    &:hover {
+      &:before { border-color: $white; }
+      background: $white;
+      color: $grey-darker;
+    }
+  }
+  &--xxs {
+    $scale-xxs: 10px;
+    padding: $scale-xxs $scale-xxs*1.75;
+    font-size: $scale-xxs + 1;
+  }
 }
 
 .shops {
