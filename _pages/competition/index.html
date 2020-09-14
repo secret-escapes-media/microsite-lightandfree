@@ -1,29 +1,39 @@
 ---
-layout: page
+layout: simple
 id: country
-title: Select your country
+title: Please select your country of residence
 
 countries:
-  - title: Great Britain
-    id: gb
-  - title: Northern Ireland
-    id: ni
-  - title: Republic of Ireland
-    id: ie
+  - id: gb
+    title: Great Britain
+    link: https://mp.secretescapes.com/uk/2020/lightandfree/competition/gb/
+  - id: ni
+    title: Northern Ireland
+    link: https://mp.secretescapes.com/uk/2020/lightandfree/competition/ni/
+  - id: ie
+    title: Republic of Ireland
+    link: https://mp.secretescapes.com/uk/2020/lightandfree/competition/ie/
 ---
 
-<div class="container">
-  <div class="row">
-    {% for country in page.countries %}
-    <div class="col col--4">
-      <div class="img img--1-1 bg--black ">
-        <a href="{{site.baseurl}}/competition/{{country.id}}" class="img__link"></a>
-        <div class="img__content">
-          <div class="h h--sm">{{country.title}}</div>
-        </div>
+<div class="fullscreen text--center bg--img" style="background-image: url('{{site.img}}/pages/country/banner.jpg');" >
+  <div class="container">
+    <h1 class="h h--md theme--dark">{{page.title}}</h1>
+    <div class="space--md"></div>
+    <div class="width width--xl boxpad--lg bg--white rounded">
+      <div class="row row--gutters-lg">
+        {% for country in page.countries %}
+          <div class="col col--md-4">
+            <div class="width width--xs">
+              <div class="img img--circle depth--md" style="background-image: url('{{site.img}}/pages/country/{{country.id}}.svg');">
+                <a href="{{country.link}}" class="img__link"></a>
+              </div>
+              <div class="space--sm"></div>
+              <a class="h h--xs" href="{{country.link}}">{{country.title}}</a>
+            </div>
+          </div>
+          {% endfor %}
       </div>
     </div>
-    {% endfor %}
+    <div class="space--xxl"></div>
   </div>
 </div>
-<div class="space--xxxl"></div>

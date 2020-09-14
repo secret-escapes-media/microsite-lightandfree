@@ -194,3 +194,13 @@
 .shop:focus{
   .shop__color { opacity: 1; }
 }
+
+.fullscreen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90%;
+  min-height: calc(100% - #{$core-nav-height});
+  padding-top: $s6;
+  padding-bottom: $s6;
+}
