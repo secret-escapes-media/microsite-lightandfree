@@ -10,8 +10,8 @@ banner:
     <div class="container text--center">
       <h1><img style="max-width: 580px;" src="{{site.img}}/pages/overview/title.svg" alt="Taste & Escape"></h1>
       <div class="space--lg"></div>
-      <div class="container container--xl boxpad--lg depth--md rounded--md text--center bg--white theme--light">
-        <h2 class="h h--sm">Shop Light & Free and win one of eight epic adventures around the UK</h2>
+      <div class="container container--lg boxpad--lg depth--md rounded--md text--center bg--white theme--light">
+        <h2 class="h h--sm">Win a secret UK getaway with your Light & Free pack!</h2>
         <p>{{site.description}}</p>
         <div class="space--sm"></div>
         <a href="#competition-entry" class="btn btn--sm btn--outline">Find out more</a>
@@ -20,7 +20,7 @@ banner:
 
 products:
   title: Discover the world of Light & Free
-  content: Delicious Greek-style yoghurt with eight scrumptious flavours to choose from. Find the flavour for you, each inspired by around-the-world adventures.
+  content: Delicious Greek-style yoghurt with eight scrumptious flavours to choose from. Find the flavour for you, each inspired by the UK’s most dazzling destinations.
 
 flavours:
 
@@ -63,11 +63,6 @@ flavours:
     title: Raspberry Razzle
     description: Enjoy the delicious taste of Light* & Free Raspberry!
     link: http://www.lightandfree.com/product/four-pack-raspberry
-
-competition:
-  title: Win one of eight epic adventures around the UK
-  content: Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
 ---
 
 
@@ -95,9 +90,9 @@ competition:
     <div class="col">
       <div class="col__content-spacing">
         {% include content/flavour-image.html id="blueberry" ratio="1-1" %}
-        {% include content/flavour-image.html id="coconut" ratio="2-3" %}
+        {% include content/flavour-image.html id="strawberry" ratio="2-3" %}
         {% include content/flavour.html id="blueberry" %}
-        {% include content/flavour-image.html id="strawberry" ratio="1-1" %}
+        {% include content/flavour-image.html id="raspberry" ratio="1-1" %}
         {% include content/flavour.html id="lemon" %}
       </div>
     </div>
@@ -117,38 +112,27 @@ competition:
 <div id="competition-entry" class="space--lg"></div>
 <div class="container container--xxl">
   <div class="boxpad--xl rounded--md bg--grey-darkest theme--dark text--center bg--img" style="background-image: url('{{site.img}}/pages/overview/comp-promo.jpg');">
-    <h2 class="h h--lg">Shop Light & Free and win!</h2>
-    <p class="width width--lg p--lg">Buy a pack of Danone Light & Free to be in with a chance of winning one of eight unmissable getaways, inspired by the eight irresistible flavours of Light & Free. What’s more, we have plenty of deliciously daring runners-up prizes up for grabs too.</p>
+    <h2 class="h h--lg">Win one of eight secret staycations</h2>
+    <p class="p--lg">Buy a pack of Danone Light & Free to be in with a chance of winning one of eight unmissable getaways, inspired by the eight irresistible flavours of Light & Free. From wild and remote to chic and cosy, we’re sending eight lucky winners to experience a secret staycation perfect for the ultimate refresh. What’s more, we have plenty of deliciously daring runners-up prizes up for grabs too. Head to our entry page now to find out more!</p>
     <div class="space--sm"></div>
     <div class="width width--sm">
       <div class="row row--md-6-6">
         <div class="col">
-          <div class="width" style="max-width: 5rem;">
-            <div class="img img--circle" style="background-color: rgba(255,255,255,.25);">
-              <div class="img__content">
-                <div class="h h--md">8</div>
-              </div>
-            </div>
-          </div>
-          <div class="space--xxs"></div>
-          <div class="p p--xl" style="line-height: 1.1;">Secret UK getaways</div>
+          <div class="prize-number prize-number--8-6">6</div>
+          <div class="space--xs"></div>
+          <div class="p p--xl" style="line-height: 1.1;">secret UK getaways still to win!</div>
         </div>
         <div class="col">
-          <div class="width" style="max-width: 5rem;">
-            <div class="img img--circle" style="background-color: rgba(255,255,255,.25);">
-              <div class="img__content">
-                <div class="h h--md">20</div>
-              </div>
-            </div>
-          </div>
-          <div class="space--xxs"></div>
-          <div class="p p--xl" style="line-height: 1.1;">£250 Secret Escapes vouchers</div>
+          <div class="prize-number prize-number--8-8">20</div>
+          <div class="space--xs"></div>
+          <div class="p p--xl" style="line-height: 1.1;">£250 Secret Escapes vouchers still to win!</div>
         </div>
       </div>
     </div>
-    <div class="space--md"></div>
+    <div class="space--sm"></div>
     <a class="js-open-modal btn btn--lg" data-open-modal="shops" href="{{site.partner.link}}">Shop Light & Free</a>
-    <p>Already have your pack? &nbsp; <a href="{{site.baseurl}}/competition" class="btn btn--xxs btn--outline btn--outline-white">Enter now</a></p>
+    <div class="space--sm"></div>
+    <div>Already have your pack? &nbsp; <a href="{{site.baseurl}}/competition" class="btn btn--xxs btn--outline btn--outline-white">Enter now</a></div>
   </div>
 
 </div>

@@ -219,3 +219,25 @@
   padding-top: $s6;
   padding-bottom: $s6;
 }
+
+.prize-number{
+    display: inline-block;
+    $size: 5rem;
+    height: $size;
+    width: $size;
+    font-size: $s5;
+    font-weight: 700;
+    line-height: $size;
+    text-align: center;
+    font-family: $display;
+    @include background-attributes;
+    &--8-0 { background-image: url('../img/pages/overview/pie/pie-8-0.svg'); }
+    &--8-1 { background-image: url('../img/pages/overview/pie/pie-8-1.svg'); }
+    &--8-2 { background-image: url('../img/pages/overview/pie/pie-8-2.svg'); }
+    &--8-3 { background-image: url('../img/pages/overview/pie/pie-8-3.svg'); }
+    &--8-4 { background-image: url('../img/pages/overview/pie/pie-8-4.svg'); }
+    &--8-5 { background-image: url('../img/pages/overview/pie/pie-8-5.svg'); }
+    &--8-6 { background-image: url('../img/pages/overview/pie/pie-8-6.svg'); }
+    &--8-7 { background-image: url('../img/pages/overview/pie/pie-8-7.svg'); }
+    &--8-8 { background-image: url('../img/pages/overview/pie/pie-8-8.svg'); }
+}
