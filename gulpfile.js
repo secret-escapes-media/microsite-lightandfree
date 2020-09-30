@@ -23,7 +23,7 @@ function cleanAssets() {
 
 // start browserSync local server and show under site subdirectory
 function browserSyncServe() {
-  const baseurl = '/uk/2020/lightandfree';
+  const baseurl = '/uk/2020/lightandfree/01';
   browserSync.init({
     baseDir: '_site/',
     ui: false,
