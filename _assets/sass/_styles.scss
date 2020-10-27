@@ -73,8 +73,8 @@
     border-bottom-color: $lf-blueberry-text;
   }
   &--blueberry {
-    background-color: #fcdcdd;
-    background: linear-gradient(90deg, rgba(233,239,255,1) 0%, rgba(243,246,255,1) 100%);
+    background-color: #e9efff;
+    background: linear-gradient(90deg, #e9efff 0%, #eef2fe 50%, #f1f5fe 75%, #f3f6ff 100%);
   }
   &--vanilla &__image { background-image: url('../img/products/cards/vanilla.jpg') }
   &--vanilla &__title { color: $lf-vanilla-text; }
@@ -83,8 +83,8 @@
     border-bottom-color: $lf-vanilla-text;
   }
   &--vanilla {
-    background-color: #fcdcdd;
-    background: linear-gradient(90deg, rgba(242,235,207,1) 0%, rgba(246,238,215,1) 100%);
+    background-color: #fef7da;
+    background: linear-gradient(90deg, #fef7da 75%, #fff8dc 100%);
   }
   &--peach &__image { background-image: url('../img/products/cards/peach.jpg') }
   &--peach &__title { color: $lf-peach-text; }
@@ -93,8 +93,8 @@
     border-bottom-color: $lf-peach-text;
   }
   &--peach {
-    background-color: #fcdcdd;
-    background: linear-gradient(90deg, rgba(255,233,194,1) 0%, rgba(255,238,210,1) 100%);;
+    background-color: #ffd394;
+    background: linear-gradient(90deg, #ffd394 50%, #fed497 75%, #ffd89f 100%);
   }
   &--lemon &__image { background-image: url('../img/products/cards/lemon.jpg') }
   &--lemon &__title { color: $lf-lemon-text; }
@@ -103,8 +103,8 @@
     border-bottom-color: $lf-lemon-text;
   }
   &--lemon {
-    background-color: #fcdcdd;
-    background: linear-gradient(90deg, rgba(255,245,223,1) 0%, rgba(255,245,223,1) 100%);
+    background-color: #fff2b5;
+    background: linear-gradient(90deg, #fff2b5 50%, #fff1b6 75%, #fef3be 100%);
   }
   &--cherry &__image { background-image: url('../img/products/cards/cherry.jpg') }
   &--cherry &__title { color: $lf-cherry-text; }
@@ -114,7 +114,7 @@
   }
   &--cherry {
     background-color: #fcdcdd;
-    background: linear-gradient(90deg, rgba(251,221,233,1) 0%, rgba(250,230,239,1) 100%);
+    background: linear-gradient(90deg, #ffbeca 50%, #ffc0cb 75%, #ffc6cf 100%);
   }
   &--strawberry &__image { background-image: url('../img/products/cards/strawberry.jpg') }
   &--strawberry &__title { color: $lf-strawberry-text; }
@@ -124,7 +124,7 @@
   }
   &--strawberry {
     background-color: #fcdcdd;
-    background: linear-gradient(90deg, rgba(253,217,217,1) 0%, rgba(250,224,227,1) 100%);
+    background: linear-gradient(90deg, #ffc4c4 50%, #ffc5c4 75%, #fdcbca 100%);
   }
   &--coconut &__image { background-image: url('../img/products/cards/coconut.jpg') }
   &--coconut &__title { color: $lf-coconut-text; }
@@ -133,8 +133,8 @@
     border-bottom-color: $lf-coconut-text;
   }
   &--coconut {
-    background-color: #fcdcdd;
-    background: linear-gradient(90deg, rgba(251,227,203,1) 0%, rgba(250,233,217,1) 100%);
+    background-color: #ffe0c1;
+    background: linear-gradient(90deg, #ffe0c1 50%, #fee1c1 75%, #fee3c6 100%);
   }
   &--raspberry &__image { background-image: url('../img/products/cards/raspberry.jpg') }
   &--raspberry &__title { color: $lf-raspberry-text; }
@@ -143,8 +143,8 @@
     border-bottom-color: $lf-raspberry-text;
   }
   &--raspberry {
-    background-color: #fcdcdd;
-    background: linear-gradient(90deg, rgba(249,217,241,1) 0%, rgba(249,224,245,1) 100%);
+    background-color: #ffccd5;
+    background: linear-gradient(90deg, #ffccd5 75%, #fed0d8 100%);
   }
 }
 
