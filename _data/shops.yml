@@ -4,11 +4,11 @@
 
 - id: sainsburys
   name: Sainsbury's
-  link: https://www.sainsburys.co.uk/shop/gb/groceries/dairy-eggs-and-chilled/danone-yogurt?type=lightandfree&facet=4294962550#langId=44&storeId=10151&catalogId=10241&categoryId=428935&parent_category_rn=428866&top_category=428866&pageSize=60&orderBy=FAVOURITES_ONLY%7CSEQUENCING%7CTOP_SELLERS&searchTerm=&beginIndex=0&hideFilters=true&facet=4294962550
+  link: https://www.sainsburys.co.uk/shop/gb/groceries/chilled-yogurts/multipack-yogurt#langId=44&storeId=10151&catalogId=10241&categoryId=428921&parent_category_rn=428917&top_category=428917&pageSize=60&orderBy=FAVOURITES_ONLY%7CSEQUENCING%7CTOP_SELLERS&searchTerm=&beginIndex=0&facet=4294962550
 
 - id: asda
   name: Asda
-  link: https://groceries.asda.com/search/light%20%26%20Free?facets=Brand%3A4294938003%3ALight+%26+Free%3A%3AShelves%3A4294938003%2B111750%3AGreek+Style
+  link: https://groceries.asda.com/search/light%20and%20free%20fat%20free%20greek%20style/products?facets=Brand.product_brand%3ALight+%26+Free
 
 - id: morrisons
   name: Morrisons

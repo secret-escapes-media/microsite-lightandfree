@@ -73,8 +73,8 @@
     border-bottom-color: $lf-blueberry-text;
   }
   &--blueberry {
-    background-color: #e9efff;
-    background: linear-gradient(90deg, #e9efff 0%, #eef2fe 50%, #f1f5fe 75%, #f3f6ff 100%);
+    background-color: #cae1ff;
+    background: linear-gradient(90deg, #cae1ff 75%, #d1e5ff 100%);
   }
   &--vanilla &__image { background-image: url('../img/products/cards/vanilla.jpg') }
   &--vanilla &__title { color: $lf-vanilla-text; }
@@ -220,26 +220,11 @@
   padding-bottom: $s6;
 }
 
-.prize-number{
-    display: inline-block;
-    $size: 5rem;
-    height: $size;
-    width: $size;
-    font-size: $s5;
-    font-weight: 700;
-    line-height: $size;
-    text-align: center;
-    font-family: $display;
-    @include background-attributes;
-    &--8-0 { background-image: url('../img/pages/overview/pie/pie-8-0.svg'); }
-    &--8-1 { background-image: url('../img/pages/overview/pie/pie-8-1.svg'); }
-    &--8-2 { background-image: url('../img/pages/overview/pie/pie-8-2.svg'); }
-    &--8-3 { background-image: url('../img/pages/overview/pie/pie-8-3.svg'); }
-    &--8-4 { background-image: url('../img/pages/overview/pie/pie-8-4.svg'); }
-    &--8-5 { background-image: url('../img/pages/overview/pie/pie-8-5.svg'); }
-    &--8-6 { background-image: url('../img/pages/overview/pie/pie-8-6.svg'); }
-    &--8-7 { background-image: url('../img/pages/overview/pie/pie-8-7.svg'); }
-    &--8-8 { background-image: url('../img/pages/overview/pie/pie-8-8.svg'); }
+.width{
+  &--flavour { max-width: 360px; }
+  &--taste-escape {
+    max-width: 300px;
+    @include bp ($md) { max-width: 500px; }
+    @include bp ($xxl) { max-width: 700px; }
+  }
 }
-
-// .bg--lf { background-color: $lf-cream; }

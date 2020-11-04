@@ -1,7 +1,7 @@
 ---
 layout: simple
 permalink: /competition/terms/
-title: terms
+title: Competition Terms & Conditions
 ---
 <!-- do I need "content-spacing" -->
 <div class="container container--xl vpad--xxxl">
@@ -9,7 +9,7 @@ title: terms
   <div class="space--lg"></div>
   <h2 class="h h--serif h--xs">Promoter And Participants</h2>
   <ol class="continuing-list continuing-list--start">
-    <li>The Promoter is Secret Escapes Ltd, (registered number 07026107) 120 Holborn, London, EC1N 2TD (the “Promoter”).</li>
+    <li><span>The Promoter is Secret Escapes Ltd, (registered number 07026107) 120 Holborn, London, EC1N 2TD (the “Promoter”).</span></li>
     <li>All entrants (“Participants”) must be Great Britain, Northern Ireland and Republic of Ireland residents aged 18 or over.</li>
     <li>Employees of Secret Escapes, their affiliated companies, their families, agents and other parties directly involved with this promotion and the sponsorship are not eligible to enter.</li>
     <li>By entering this prize draw, all participants are deemed to have agreed to be bound by these terms and conditions unless notified otherwise in writing.</li>

@@ -7,16 +7,9 @@
   flex-direction: column;
   justify-content: flex-start;
   height: 75%;
-  min-height: 450px;
-  // max-height: 800px;
+  min-height: 600px;
   color: $black;
-  // background-color: $grey;
-  @include bp($lg){
-    // height: 90%;
-    // height: calc(100% - #{$core-nav-height});
-    // min-height: 900px;
-    // max-height: 1080px;
-  }
+  background-color: $grey-lighter;
   &__wrap {
     position: relative;
     z-index: $z-content-upper;
@@ -35,7 +28,6 @@
     right: 0;
     bottom: 0;
     z-index: $z-content;
-    background-color: $grey-dark;
     @include background-attributes;
     // &:before {
     //   // optional colour overlay on bg image

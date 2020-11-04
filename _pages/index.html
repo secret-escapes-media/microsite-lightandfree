@@ -8,7 +8,7 @@ title: Taste & Escape
 banner:
   content: >
     <div class="container container--no-padding text--center">
-      <h1><img style="max-width: 700px;" src="{{site.img}}/pages/overview/title.svg" alt="Taste & Escape"></h1>
+      <h1><img class="widht width--taste-escape" src="{{site.img}}/pages/overview/title.svg" alt="Taste & Escape"></h1>
       <div class="width width--xxl vpad--sm">
         <h2 class="h h--md">Discover our Light & Free collaboration for your chance to win one of our secret staycations</h2>
       </div>
@@ -19,49 +19,41 @@ flavours:
 
   - id: blueberry
     title: Blueberry Burst
-    description: Play to win hearts with this mouth watering taste sensation. Enjoy the fab fruity zing of Light & Free Blueberry!
     link: http://www.lightandfree.com/product/four-pack-blueberry
 
   - id: vanilla
     title: Vanilla
-    description: Smooth as silk, a timeless classic! Enjoy the laid-back taste of Light & Free Vanilla!
     link: http://www.lightandfree.com/product/four-pack-vanilla
 
   - id: peach
     title: Peach Passion Fruit
-    description: Wakey wakey, let your senses shine with this taste of the tropics. Enjoy the exciting fruit combination of Light & Free Peach Passion Fruit!
     link: http://www.lightandfree.com/product/four-pack-peach-passion-fruit
 
   - id: lemon
     title: Lemon
-    description: Its zesty style will awaken your senses. Enjoy the refreshing taste of Light & Free Lemon!
     link: http://www.lightandfree.com/product/four-pack-lemon
 
   - id: cherry
     title: Cherry Charmer
-    description: Take a ride on the luscious side. Enjoy the sunkissed taste of Light & Free Cherry!
     link: http://www.lightandfree.com/product/four-pack-cherry
 
   - id: strawberry
     title: Strawberry
-    description: Great taste, great style, you’re simply made for each other. Enjoy the irresistible taste of Light & Free Strawberry!
     link: http://www.lightandfree.com/product/four-pack-strawberry
 
   - id: coconut
     title: Coconut
-    description: Its coconut bits will tingle your taste buds. Enjoy the fresh taste of Light & Free Coconut!
     link: http://www.lightandfree.com/product/four-pack-coconut
 
   - id: raspberry
     title: Raspberry Razzle
-    description: Enjoy the delicious taste of Light* & Free Raspberry!
     link: http://www.lightandfree.com/product/four-pack-raspberry
 ---
 
 <div id="competition" class="container vpad--xxxl">
-  <div class="row row--6-6 row--valign-center">
+  <div class="row row--xxl-6-6 row--valign-center">
     <div class="col">
-      <div class="img img--2-3" style="background-image: url({{site.img}}/pages/overview/competition.jpg);" ></div>
+      <div class="img img--4-3 img--lg-16-9 img--xxl-2-3" style="background-image: url({{site.img}}/pages/overview/competition.jpg);" ></div>
     </div>
     <div class="col">
       <div class="text--center">
@@ -70,9 +62,9 @@ flavours:
         <p class="p--xl">Discover beautiful locations across the UK & Ireland, from wild and remote to chic and cosy. All you need is your pack of Light & Free yoghurt* - find your unique code, and you could be packing your weekend bag for the ultimate refresh in no time!</p>
         <p class="p--xl">What’s more, we have plenty of deliciously daring runners-up prizes up for grabs too, including £250 (€290 for ROI) Secret Escapes vouchers so you can craft your perfect escape! Head to our entry page now to find out more.</p>
         <div class="space--sm"></div>
-        <a class="js-open-modal btn btn--lg" data-open-modal="shops" href="{{site.partner.link}}">Shop Light & Free*</a>
+        <a id="track-comp-shop" class="js-open-modal btn btn--lg" data-open-modal="shops" href="{{site.partner.link}}">Shop Light & Free*</a>
         <div class="space--sm"></div>
-        <div>Already have your pack?* &nbsp; <a href="{{site.baseurl}}/competition" class="btn btn--xxs btn--outline">Enter now</a></div>
+        <div>Already have your pack?* &nbsp; <a id="track-comp-enter" href="{{site.baseurl}}/competition" class="btn btn--xxs btn--outline">Enter now</a></div>
         <div class="p--xs space--xs">*No purchase required for NI or ROI</div>
       </div>
     </div>
@@ -86,11 +78,11 @@ flavours:
     <p>Delicious Greek-style yoghurt with scrumptious flavours to choose from.</p>
     <p>Find the flavour for you, each inspired by the UK & Ireland’s most dazzling destinations.</p>
     <div class="space--md"></div>
-    <a class="js-open-modal btn btn--sm" data-open-modal="shops" href="{{site.partner.link}}">Shop Light & Free*</a>
+    <a id="track-flavour-shop" class="js-open-modal btn btn--sm" data-open-modal="shops" href="{{site.partner.link}}">Shop Light & Free*</a>
     <div class="p--xs space--xs">*No purchase required for NI or ROI</div>
   </div>
   <div class="space--xl"></div>
-  <div class="row row--6-6 row--xxl-4-4-4">
+  <div class="row row--xl-4-4-4">
     <div class="col">
       <div class="col__content-spacing">
         {% include content/flavour.html id="strawberry" %}
