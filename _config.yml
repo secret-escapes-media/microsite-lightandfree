@@ -9,11 +9,11 @@ description: >
   Take the leap into the unknown. We’ve partnered with Light & Free to bring you a selection of deliciously secret staycations, inspired by the flavours of Light & Free. Discover beautiful locations across the UK & Ireland, from wild and remote to chic and cosy. All you need is your pack of Light & Free yoghurt* - find your unique code, and you could be packing your weekend bag for the ultimate refresh in no time!
 
 # file paths
-url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
-baseurl: "/uk/2020/lightandfree" # the subpath of your site, e.g. /blog/
-img:     "/uk/2020/lightandfree/_assets/img"
-css:     "/uk/2020/lightandfree/_assets/css"
-js:      "/uk/2020/lightandfree/_assets/js"
+url:     "https://mp.secretescapes.com" # the base hostname & protocol for your site
+baseurl: "https://mp.secretescapes.com/uk/2020/lightandfree" # the subpath of your site, e.g. /blog/
+img:     "https://mp.secretescapes.com/uk/2020/lightandfree/_assets/img"
+css:     "https://mp.secretescapes.com/uk/2020/lightandfree/_assets/css"
+js:      "https://mp.secretescapes.com/uk/2020/lightandfree/_assets/js"
 
 # Build settings
 markdown: kramdown
