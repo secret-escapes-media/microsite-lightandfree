@@ -11,7 +11,7 @@
   {% assign meta-title = page.title | append: ' | ' | append: site.title | remove: '&shy;' | replace: '&nbsp;', ' ' %}
 
   <!-- social image -->
-  {% assign social-image-url = site.url | append: site.img | append: '/thumbnail/social.jpg' %}
+  {% assign social-image-url = site.img | append: '/thumbnail/social.jpg' %}
 
 <!-- ####################################################################### -->
 
@@ -27,7 +27,7 @@
     <meta itemprop="description" content="{{meta-description}}">
     <meta itemprop="image" content="{{social-image-url}}">
     <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="{{site.url}}{{site.baseurl}}{{page.url}}">
+    <meta property="og:url" content="{{site.baseurl}}{{page.url}}">
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{meta-title}}">
     <meta property="og:description" content="{{meta-description}}">
