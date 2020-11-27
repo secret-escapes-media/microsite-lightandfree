@@ -67,6 +67,8 @@ footer:
   nav-col-3:
     title:
     links:
+      - link: https://mp.secretescapes.com/uk/2020/lightandfree/competition/terms/
+        label: Competition Terms and Conditions
       - link: https://www.secretescapes.com/terms-and-conditions
         label: Terms and Conditions
       - link: https://d1x3cbuht6sy0f.cloudfront.net/legal/slaveryStatement.pdf
