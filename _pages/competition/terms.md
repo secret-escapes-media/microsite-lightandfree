@@ -116,8 +116,7 @@ title: Competition Terms & Conditions
       <div>
         <div>For entrants from the UK and Northern Ireland:
           <ol class="ol--no-space ol--letters">
-            <li>Due to the nature of instant win promotions, the winners will be drawn at random by the Promoter and as a result the winners will be notified immediately on submitting their entries of which category of prize they have won. For winners of the Top Prize and the Runner Up Prize, they will be contacted via email by the Promoter within 72 hours of their entry with the next steps of how to claim the prize; and</li>
-            <li>The winners will be notified immediately on submitting their entries of which category of prize they have won. For winners of the Top Prize and the Runner Up Prize, they will be contacted via email by the Promoter within 72 hours of their entry with the next steps of how to claim the prize.</li>
+            <li>Due to the nature of instant win promotions, the winners will be drawn at random by the Promoter and as a result the winners will be notified immediately on submitting their entries of which category of prize they have won. For winners of the Top Prize and the Runner Up Prize, they will be contacted via email by the Promoter within 72 hours of their entry with the next steps of how to claim the prize.</li>
           </ol>
         </div>
       </div>
